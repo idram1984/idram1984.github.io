@@ -1,10 +1,14 @@
-title: Whats Priced In
-author: idram1984
+title: ""
+author: Ignacio de Ramon
 copyright: "© 2024 Whats Priced In"
+logo: _static/logo.png 
 
 # Book settings
-html:
-  favicon: images/favicon.ico
+html:  # the path to your logo image (relative to your book directory)
+  favicon: _static/logo.png
+  use_edit_page_button: true
+  use_repository_button: true
+  use_issues_button: true
 
 # Execution settings
 execute:
@@ -17,3 +21,7 @@ format:
   jb:
     execute:
       execute_notebooks: force 
+
+repository:
+  url: https://github.com/idram1984/idram1984.github.io
+  branch: main  # or whatever your main branch is called
