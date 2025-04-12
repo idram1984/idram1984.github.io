@@ -1,0 +1,19 @@
+title: Whats Priced In
+author: idram1984
+copyright: "© 2024 Whats Priced In"
+
+# Book settings
+html:
+  favicon: images/favicon.ico
+
+# Execution settings
+execute:
+  execute_notebooks: force
+  timeout: 600
+  allow_errors: false
+
+# Format settings
+format:
+  jb:
+    execute:
+      execute_notebooks: force 

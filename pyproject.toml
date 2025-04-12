@@ -1,0 +1,29 @@
+[project]
+name = "whats-priced-in"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "idram1984",email = "46267526+idram1984@users.noreply.github.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "polars",
+    "pandas",
+    "jupyter-book",
+    "myst-nb",
+    "sphinx-book-theme",
+    "seaborn",
+    "matplotlib",
+    "numpy",
+    "nbconvert",
+    "ipykernel",
+    "nbformat"
+]
+
+[tool.poetry]
+packages = [{include = "whats_priced_in", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
